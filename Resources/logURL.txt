@@ -1,0 +1,52 @@
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61843/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--allow-running-insecure-content", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--allow-running-insecure-content", "--ignore-certificate-errors"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:61843
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61843 "POST /session HTTP/1.1" 200 756
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61843/session/0b0930040fed261cf6f430099a68e7e9/url {"url": "https://atg.party/"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61843 "POST /session/0b0930040fed261cf6f430099a68e7e9/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61843/session/0b0930040fed261cf6f430099a68e7e9/timeouts {"implicit": 20000}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61843 "POST /session/0b0930040fed261cf6f430099a68e7e9/timeouts HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61843/session/0b0930040fed261cf6f430099a68e7e9/window/maximize {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61843 "POST /session/0b0930040fed261cf6f430099a68e7e9/window/maximize HTTP/1.1" 200 52
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61843/session/0b0930040fed261cf6f430099a68e7e9/log {"type": "browser"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61843 "POST /session/0b0930040fed261cf6f430099a68e7e9/log HTTP/1.1" 200 1867
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61843/session/0b0930040fed261cf6f430099a68e7e9/log {"type": "driver"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61843 "POST /session/0b0930040fed261cf6f430099a68e7e9/log HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:Main.Driver:Get URL
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:61843/session/0b0930040fed261cf6f430099a68e7e9/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61843 "DELETE /session/0b0930040fed261cf6f430099a68e7e9/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:61843/session/0b0930040fed261cf6f430099a68e7e9 {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61843 "DELETE /session/0b0930040fed261cf6f430099a68e7e9 HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62400/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--allow-running-insecure-content", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--allow-running-insecure-content", "--ignore-certificate-errors"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:62400
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62400 "POST /session HTTP/1.1" 200 757
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62400/session/ef23b3ea5b470b2fb6b480fb4f5d5edf/url {"url": "https://atg.party/"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62400 "POST /session/ef23b3ea5b470b2fb6b480fb4f5d5edf/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62400/session/ef23b3ea5b470b2fb6b480fb4f5d5edf/timeouts {"implicit": 20000}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62400 "POST /session/ef23b3ea5b470b2fb6b480fb4f5d5edf/timeouts HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62400/session/ef23b3ea5b470b2fb6b480fb4f5d5edf/window/maximize {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62400 "POST /session/ef23b3ea5b470b2fb6b480fb4f5d5edf/window/maximize HTTP/1.1" 200 52
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62400/session/ef23b3ea5b470b2fb6b480fb4f5d5edf/log {"type": "browser"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62400 "POST /session/ef23b3ea5b470b2fb6b480fb4f5d5edf/log HTTP/1.1" 200 1867
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62400/session/ef23b3ea5b470b2fb6b480fb4f5d5edf/log {"type": "driver"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62400 "POST /session/ef23b3ea5b470b2fb6b480fb4f5d5edf/log HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:Main.Driver:Get URL
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:62400/session/ef23b3ea5b470b2fb6b480fb4f5d5edf/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62400 "DELETE /session/ef23b3ea5b470b2fb6b480fb4f5d5edf/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:62400/session/ef23b3ea5b470b2fb6b480fb4f5d5edf {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62400 "DELETE /session/ef23b3ea5b470b2fb6b480fb4f5d5edf HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request

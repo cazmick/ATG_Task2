@@ -42,4 +42,4 @@ class ArticleLocators(Base):
         element = Base.getElement(self, "//button[@id='hpost_btn']", "xpath")
         Base.action_click(element)
         print(self.get_log("browser"))
-        print(logger.info("Current URL"))
+        logger.info("Current URL")
